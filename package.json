@@ -1,6 +1,6 @@
 {
   "name": "symbol-tree",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "description": "Turn any collection of objects into its own efficient tree or linked list using Symbol",
   "main": "lib/SymbolTree.js",
   "scripts": {
@@ -29,6 +29,16 @@
   "files": [
     "lib"
   ],
+  "jest": {
+    "resolver": "jest-pnp-resolver",
+    "moduleDirectories": [
+      "node_modules",
+      "<rootDir>/node_modules",
+      "."
+    ],
+    "moduleNameMapper": {},
+    "modulePathIgnorePatterns": []
+  },
   "author": "Joris van der Wel <joris@jorisvanderwel.com>",
   "license": "MIT",
   "bugs": {
@@ -41,6 +51,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.2.0",
     "istanbul": "^0.4.5",
+    "jest": "^26.6.3",
     "jsdoc-to-markdown": "^5.0.0",
     "tape": "^5.0.0"
   }
