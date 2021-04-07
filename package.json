@@ -36,6 +36,7 @@
       "<rootDir>/node_modules",
       "."
     ],
+    "transform": {},
     "moduleNameMapper": {},
     "modulePathIgnorePatterns": []
   },
@@ -56,6 +57,7 @@
     "tape": "^5.0.0"
   },
   "dependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4"
   }
 }
